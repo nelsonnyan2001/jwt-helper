@@ -39,7 +39,7 @@ archives:
         format: zip
 
 brews:
-  - name: Swing JWT Helper
+  - name: swing-jwt-helper
     description: JWT helper for swing
     homepage: https://github.com/nelsonnyan2001/jwt-helper
     repository:
