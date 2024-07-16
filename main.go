@@ -72,9 +72,11 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 		case "up":
 			if m.focusScreen == 1 {
-				m.inputs[m.focusIndex].Blur()
-				m.inputs[m.focusIndex-1].Focus()
-				m.focusIndex--
+				if m.focusIndex != 0 {
+					m.inputs[m.focusIndex].Blur()
+					m.inputs[m.focusIndex-1].Focus()
+					m.focusIndex--
+				}
 			}
 		case "n":
 			if m.focusScreen == 2 {
