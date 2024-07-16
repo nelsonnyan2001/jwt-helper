@@ -45,7 +45,6 @@ brews:
     repository:
       owner: nelsonnyan2001
       name: homebrew-swing-jwt
-      token: AAAAC3NzaC1lZDI1NTE5AAAAICnSrrHiO51SFA/nT7+jT+AtT+ONQPyCsN+qj0gCotPx
     commit_author:
       name: nelsonnyan2001
       email: zwenyantoe@gmail.com
